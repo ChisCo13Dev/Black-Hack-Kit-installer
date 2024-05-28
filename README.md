@@ -10,10 +10,10 @@
     <input type="file" id="image-upload" accept="image/*">
     <p>Esta herramienta esta hecha para defensa esta en su version de prueba pr favor Reporta errores al +52 844 776 7686</p>
     <H1>COMANDOS DE INSTALACION:  </H1>
-    <p>https://github.com/ChisCo13Dev/Black-Hack-Kit.git</p>
-    <p>cd Black-Hack-Kit</p>
-    <p>chmod 777 *.sh</p>
-    <p>bash install.sh</p>
+    <p style=color: cyan;>https://github.com/ChisCo13Dev/Black-Hack-Kit.git</p>
+    <p style=color: cyan;>cd Black-Hack-Kit</p>
+    <p style=color: cyan;>chmod 777 *.sh</p>
+    <p style=color: cyan;>bash install.sh</p>
 </div>
 </body>
 </html>
