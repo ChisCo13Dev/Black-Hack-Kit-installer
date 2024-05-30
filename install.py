@@ -16,11 +16,15 @@ def instalar_dependencias():
 
 def instalar_herramienta():
     print("\033[92mInstalando la herramienta, espere un poco...")
-    subprocess.run(['megatools', 'dl', 'https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY'])
-    subprocess.run(['unzip', 'Black Hack Kit.zip'])
-    os.remove('Black Hack Kit.zip')
-    os.chdir('Black Hack Kit')
-    subprocess.run(['python3', 'index.py'])
+    os.system(f"megadl https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY")
+
+    os.system(f"unzip Black-Hack-Kit.zip")
+
+    os.remove('Black-Hack-Kit.zip')
+
+    os.chdir(f"cd Black-Hack-Kit")
+
+    os.system(f"python3 index.py")
 
 while True:
     mostrar_menu()
