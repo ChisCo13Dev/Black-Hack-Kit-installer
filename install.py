@@ -15,7 +15,7 @@ def instalar_herramienta():
 
     os.system(f"pip install colorama requests wget")
     
-    os.system(f"megadl https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY")
+    os.system(f"megatools dl https://mega.nz/file/yAwGSKLA#CXVvFBqkk15GHEpTN8APqNX2eEs6oSxDMI1IfnnJkPY")
 
     os.system(f"unzip Black-Hack-Kit.zip -y")
 
