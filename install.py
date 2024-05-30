@@ -28,8 +28,6 @@ while True:
     opcion = input("Ingresa el número de la opción: ")
 
     if opcion == '1':
-        instalar_dependencias()
-    elif opcion == '2':
         instalar_herramienta()
     elif opcion == '00':
         print("Saliendo...")
