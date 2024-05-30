@@ -12,7 +12,8 @@
     <p style=color: cyan;>+52 844 776 7686</p>
     <H1>COMANDOS DE INSTALACION:  </H1>
     <p style=color: cyan;>wget https://raw.githubusercontent.com/ChisCo13Dev/Black-Hack-Kit-installer/main/install.py && python3 install.py</p>
-    <h1>Pórtense Bien</h1>
+    <h1>Pórtense Bien</h1
+    <hr />
     <h1>NOSOTROS NO NOS HACEMOS RESPONSABLES DEL MAL USO QUE LE DEN A ESTA HERRAMIENTA</h1>
 </div>
 </body>
