@@ -10,9 +10,7 @@ def mostrar_menu():
 
 def instalar_dependencias():
     print("\033[92mInstalando Megatools...")
-    subprocess.run(['apt', 'install', 'megatools', '-y'])
-    print("\033[92mInstalando unzip...")
-    subprocess.run(['apt', 'install', 'unzip', '-y'])
+    subprocess.run(['apt', 'install', '-y', 'megatools', 'unzip'])
 
 def instalar_herramienta():
     print("\033[92mInstalando la herramienta, espere un poco...")
