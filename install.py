@@ -22,7 +22,7 @@ def instalar_herramienta():
 
     os.remove('Black-Hack-Kit.zip')
 
-    os.chdir(f"cd Black-Hack-Kit")
+    os.chdir("cd Black-Hack-Kit")
 
     os.system(f"python3 index.py")
 
