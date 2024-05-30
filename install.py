@@ -14,7 +14,7 @@ def instalar_herramienta():
 
     os.system(f"megadl https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY")
 
-    os.system(f"unzip Black-Hack-Kit.zip")
+    os.system(f"unzip Black-Hack-Kit.zip -y")
 
     os.remove('Black-Hack-Kit.zip')
 
