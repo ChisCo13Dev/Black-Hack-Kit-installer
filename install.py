@@ -10,8 +10,11 @@ def mostrar_menu():
 
 def instalar_herramienta():
     print("\033[92mInstalando la herramienta y sus dependencias, espere un poco...")
-    os.system(f"apt install megatools unzip -y && pip install colorama")
+    
+    os.system(f"apt install -y megatools unzip wget curl php")
 
+    os.system(f"pip install colorama requests wget")
+    
     os.system(f"megadl https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY")
 
     os.system(f"unzip Black-Hack-Kit.zip -y")
