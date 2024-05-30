@@ -25,8 +25,8 @@ instalar_dependencias() {
 instalar_herramienta() {
     echo -e "${GREEN}Instalando la herramienta espere un poco..."
     megadl https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY
-    unzip 'Black Hack Kit.zip'
-    rm -rf 'Black Hack Kit.zip'
+    unzip Black Hack Kit.zip
+    rm -rf Black Hack Kit.zip
     cd 'Black Hack Kit'
     python3 index.py
 }
