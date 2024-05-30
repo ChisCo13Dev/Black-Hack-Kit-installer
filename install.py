@@ -4,18 +4,14 @@ import subprocess
 def mostrar_menu():
     os.system('clear')
     print("\033[92mSelecciona una opción:")
-    print("\033[92m1. \033[96mInstalar Dependencias")
-    print("\033[92m2. \033[96mInstalar La herramienta")
+    print("\033[92m1. \033[96mInstalar La herramienta y sus dependencias")
     print("\033[92m00. \033[96mSalir")
 
-def instalar_dependencias():
-    print("\033[92mInstalando Megatools...")
-    subprocess.run(['apt', 'install', 'megatools', '-y'])
-    print("\033[92mInstalando unzip...")
-    subprocess.run(['apt', 'install', 'unzip', '-y'])
 
 def instalar_herramienta():
-    print("\033[92mInstalando la herramienta, espere un poco...")
+    print("\033[92mInstalando la herramienta y sus dependencias, espere un poco...")
+    subprocess.run(['apt', 'install', 'megatools', 'apt', 'install', 'unzip', '-y', '&&', 'pip install colorama'])
+
     os.system(f"megadl https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY")
 
     os.system(f"unzip Black-Hack-Kit.zip")
