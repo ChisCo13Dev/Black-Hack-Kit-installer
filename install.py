@@ -10,7 +10,7 @@ def mostrar_menu():
 
 def instalar_herramienta():
     print("\033[92mInstalando la herramienta y sus dependencias, espere un poco...")
-    subprocess.run(['apt', 'install', 'megatools', 'apt', 'install', 'unzip', '-y', '&&', 'pip install colorama'])
+    os.system(f"apt install megatools unzip -y && pip install colorama")
 
     os.system(f"megadl https://mega.nz/file/nIxSjCiC#-jZqXATBU2lxAcADyN6QVEXHcaqC8oWz0S8AOJG0vhY")
 
