@@ -13,7 +13,7 @@
     <H1>COMANDOS DE INSTALACION:  </H1>
     <p style=color: cyan;>wget https://raw.githubusercontent.com/ChisCo13Dev/Black-Hack-Kit-installer/main/install.py && python3 install.py</p>
     <h1>Pórtense Bien</h1>
-    <h1>YONO ME HAGO RESPONSABLE DEL MAL USO QUE LE DEN A ESTA HERRAMIENTA</h1>
+    <h1>NOSOTROS NO NOS HACEMOS RESPONSABLES DEL MAL USO QUE LE DEN A ESTA HERRAMIENTA</h1>
 </div>
 </body>
 </html>
